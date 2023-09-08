@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #afa9a9;
+
+}
+
+li {
+  float: left;
+  border-right:1px solid #c2bdbd;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: blue;
+
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #a49e9e;
+
+}
+
+.active {
+    color: white;
+  
+  background-color: #656867;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#css">CSS</a></li>
+</ul>
+
+</body>
+</html>
+
+
