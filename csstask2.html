@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-ul {
+.next ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,44 +11,85 @@ ul {
   border: 1px solid #555;
 }
 
-li a {
+.next li a {
   display: block;
-  color: #000;
   padding: 8px 16px;
   color: blue;
   text-decoration: none;
 }
 
-li {
+.next li {
   text-align: center;
   border-bottom: none;
   background-color: rgb(147, 204, 223);
   color: blue;
 }
 
-li:last-child {
+.next li:last-child {
   border-bottom: none;
 }
 
-li a.active {
+.next li a.active {
   background-color: orange;
   color: white;
 }
 
-li a:hover:not(.active) {
+.next li a:hover:not(.active) {
   background-color:rgb(191, 196, 198);
 }
+
+
+.total{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.hori ul {
+  list-style: none;
+}
+.hori ul a {
+  text-decoration: none;
+}
+.hori li{
+  color: white;
+  float: left;
+  background-color: #6c5f5f;
+}
+.hori li a{
+  color: white;
+  display: block;
+  padding: 25px;
+  background-color: #8e8383;
+}
+.hori li a:hover{
+  background-color: #555454;
+}
+
+
 </style>
 </head>
 <body>
 
+
+  <div class="total">
+<div class="next">
 <ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#java">Java</a></li>
   <li><a href="#html">HTML</a></li>
   <li><a href="#css">CSS</a></li>
 </ul>
-
+</div>
+<div class="hori">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#css">CSS</a></li>
+</ul>
+</div>
+</div>
 </body>
 </html>
 
