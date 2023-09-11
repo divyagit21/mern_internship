@@ -1,3 +1,109 @@
 table,th,td{
     border-radius: 10px ;
 }
+
+.shapes{
+margin: auto;
+width: 50%;
+padding: 20px;
+margin-bottom: 5px;
+}
+
+
+.shape {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    border: 2px solid #000;
+}
+
+.a {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 100px;
+    border-radius: 18%;
+}
+
+.b {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.c {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 70px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.d {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 100px;
+
+}
+
+.e {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 100px;
+    border-radius: 28%;
+}
+
+.f {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.g {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 100px;
+    border-radius: 11%;
+}
+
+.h {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 100px;
+    border-radius: 13%;
+}
+
+.i {
+    border: 1px solid rgb(19, 149, 19);
+    border-width: thick;
+    height: 50px;
+    width: 95px;
+    border-radius: 5px 25px
+}
+
+.shape:nth-child(3n+1) {
+    clear: left;
+}
+
+.ani {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
